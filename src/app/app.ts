@@ -1,11 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { Layout } from './layout/layout';
-import { RouterModule } from '@angular/router';
 import { Login } from './pages/externo/login/login';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterModule, Login],
+  imports: [ Login, RouterModule],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
