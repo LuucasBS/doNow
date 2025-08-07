@@ -1,14 +1,14 @@
-@import "tailwindcss";
- @import './app/styles/variables';
+@use "tailwindcss";
+@use './app/styles/variables' as vars;
 
 * {
   box-sizing: border-box;
-  font-family: 'poppins';
-  background-color: $gray-100;
+  font-family: "poppins";
+  background-color: vars.$gray-100;
 }
 
 .card {
-  background-color: $gray-200 ;
+  background-color: vars.$gray-200;
   border: 0.5px solid rgb(196, 196, 196);
   border-radius: 20px;
   box-shadow: 5px 6px 9px 0px rgba(110, 110, 110, 0.6);

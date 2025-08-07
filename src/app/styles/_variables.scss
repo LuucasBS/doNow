@@ -1,4 +1,4 @@
-// _variables.scss
+// src/app/styles/_variables.scss
 
 $primary: #4f46e5;
 $primary-light: #667eea;
@@ -36,6 +36,6 @@ $text-dark: $dark;
 
 // Bordas
 $border-color: $gray-300;
-$border-radius: 0.375rem; // 6px
-$border-radius-lg: 0.5rem; // 8px
-$border-radius-sm: 0.25rem; // 4px
+$border-radius: 0.375rem;
+$border-radius-lg: 0.5rem;
+$border-radius-sm: 0.25rem;
